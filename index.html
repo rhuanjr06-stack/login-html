@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEU PT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jselivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <main class="login-container">
+        <section class="login-card">
+            <div class="text-center mb-4">
+                <div class="login-icon" aria-hidden="true">☭</div>
+                <h1 class="h3 fw-bold mt-3">Bom dia camarada</h1>
+                <p class="text-secondary">Coloca teus dado aí pra eu ajudar</p>
+            </div>
+
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label for="login" class="form-label">Login</label>
+                    <input type="text" name="login" id="login" class="formControl" placeholder="Coloca teu login aq" required>
+                </div>
+                <div class="mb-3">
+                    <label for="senha" class="form-label">Login</label>
+                    <input type="password" name="senha" id="senha" class="formControl" placeholder="Agora tua senha, faz favor" required>
+                </div>
+
+                <div id="mensage" class="alert d-none" role="alert" aria-live="polite"></div>
+
+                <button type="submit" id="btnLogin" class="btn btn-primary w-100 py-2">
+                    Entrar
+                </button>
+            </form>
+            
+            <p class="text-center text-secondary small mt-4 mb-0">
+                Autenticação pra ver se é verdade
+            </p>
+        </section>
+    </main>
+    
+</body>
+</html>
